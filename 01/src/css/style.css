@@ -24,3 +24,45 @@
 .images-slider .slide.show {
     opacity: 1;
 }
+
+
+.images-slider .image-pink {
+    background-image: url(../images/flores-rosas.jpg);
+}
+
+.images-slider .image-green {
+    background-image: url(../images/flores-verdes.jpg);
+}
+
+.images-slider .image-orange {
+    background-image: url(../images/montanhas.jpg);
+}
+
+.images-slider .image-blue {
+    background-image: url(../images/lago.jpg);
+}
+
+
+.images-slider .back-arrow, .images-slider .advance-arrow {
+    position: absolute;
+    z-index: 1;
+}
+
+.images-slider .back-arrow {
+    transform: rotateY(180deg);
+    left: 4%;
+}
+
+.images-slider .advance-arrow {
+    right: 4%;
+}
+
+.images-slider .opacity {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.images-slider .image-arrow {
+    width: 50px;
+    height: 50px;
+}
