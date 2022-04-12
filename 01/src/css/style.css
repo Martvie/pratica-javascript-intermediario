@@ -66,3 +66,44 @@
     width: 50px;
     height: 50px;
 }
+
+.slide .content {
+    background-color: #fff;
+    margin-left: 180px;
+    padding: 65px 60px;
+    width: 620px;
+    border-radius: 10px;
+}
+
+.content .tittle {
+    font-size: 5rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.content .text {
+    font-size: 2.5rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.content .button {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.button.pink {
+    color: #c50000;
+}
+
+.button.green {
+    color: #d9dd10;
+}
+
+.button.orange {
+    color: #a63a17;
+}
+
+.button.blue {
+    color: #10ACDD;
+}
