@@ -8,23 +8,25 @@ advanceArrow.addEventListener('click', function () {
     if (currentSlide === slides.length - 1) {
         return
     }
-    hideImage()
 
     currentSlide++
-    slides[currentSlide].classList.add('show')
 
+    hideImage()
+    showSlide()
     hideOrShowArrows()
+
+    
 })
 
 backArrow.addEventListener('click', function () {
     if (currentSlide === 0) {
         return
     }
-    hideImage()
 
     currentSlide--
-    slides[currentSlide].classList.add('show')
 
+    hideImage()
+    showSlide()
     hideOrShowArrows()
 })
 
@@ -48,4 +50,8 @@ function hideOrShowArrows() {
     } else {
         advanceArrow.classList.add('opacity')
     }
+}
+
+function showSlide() {
+    slides[currentSlide].classList.add('show')
 }
