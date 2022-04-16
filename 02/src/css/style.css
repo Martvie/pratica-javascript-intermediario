@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E5E5E5;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.acordeon {
+    width: 655px;
+    min-height: 347px;
+    border-radius: 30px;
+
+    background-color: #FFF;
+    box-shadow: 0 27px 49px -25px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.acordeon .image {
+    position: absolute;
+    left: -90px;
+}
+
+.acordeon .content {
+    width: 90%;
+    padding-left: 225px;
+}
