@@ -5,8 +5,7 @@ itemAcordeon.forEach(item => {
         let active = document.querySelector('.active')
 
         if(active){
-        let activeItem = document.querySelector('.active')
-        activeItem.classList.remove('active')
+        active.classList.remove('active')
         }
 
         item.classList.add('active')
