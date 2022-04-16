@@ -34,3 +34,54 @@ main {
     width: 90%;
     padding-left: 225px;
 }
+
+.acordeon .content h1 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 14px;
+}
+
+.acordeon .items .item {
+    cursor: pointer;
+    background-image: url(../images/icone-seta-fechada.png);
+    background-repeat: no-repeat;
+    background-position: top 8px right 0px;
+    background-size: 12px;
+    border-bottom: 1px solid #CCC;
+    margin: 10px;
+}
+
+.acordeon .items .item:last-child {
+    border-bottom: none;
+}
+
+.acordeon .items .item .question {
+    padding-bottom: 15px;
+    transition: 0.3s ease;
+    font-size: 17px;
+    font-weight: 500;
+    width: 95%;
+}
+
+.item .question:hover {
+    color: #F47c57;
+}
+
+.acordeon .items .item .answer {
+    display: none;
+    padding-bottom: 15px;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.acordeon .items .item.active {
+    background-image: url(../images/icone-seta-aberta.png);
+}
+
+.acordeon .items .item.active .question {
+    font-weight: 700;
+}
+
+.acordeon .items .item.active .answer {
+    display: block;
+}
